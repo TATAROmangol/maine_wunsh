@@ -1,0 +1,99 @@
+name: maine_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  realm: ^3.0.0
+  permission_handler:
+  timezone:
+  flutter_local_notifications:
+  flutter_launcher_icons:
+  flutter_bloc:
+  get_it:
+  flutter_phoenix:
+  shared_preferences:
+  connectivity_plus:
+
+  firebase_core: ^3.1.0
+  cloud_firestore:
+  firebase_remote_config:
+  firebase_database:
+  firebase_auth:
+  google_sign_in:
+
+  image_picker:
+  flutter_colorpicker: 
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo.png"
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Kinoble
+      fonts:
+        - asset: assets/fonts/Kinoble-Medium.ttf
+        - asset: assets/fonts/Kinoble-MediumItalic.ttf
+          weight: 500
+  assets:
+    - assets/fonts/
+    - assets/icons/logo.png
+    - assets/icons/show.png
+    - assets/icons/unshow.png
+    - assets/icons/uncomplete.png
+    - assets/icons/add_task.png
+    - assets/icons/delete.png
+    - assets/icons/redact.png
+    - assets/icons/stop.png
+    - assets/icons/order.png
+    - assets/icons/tasks.png
+    - assets/icons/theme_settings.png
+    - assets/icons/add_task_tree.png
+    - assets/icons/add_category.png
+    - assets/icons/complete.png
+    - assets/icons/profile.png
+    - assets/background.jpeg
+    - assets/learn/Group_1.jpg
+    - assets/learn/Group_2.jpg
+    - assets/learn/Group_3.jpg
+    - assets/learn/Group_4.jpg
+    - assets/learn/Group_5.jpg
+    - assets/learn/Group_6.jpg
+    - assets/learn/Group_7.jpg
+    - assets/learn/Group_10.jpg
+    - assets/learn/Group_11.jpg
+    - assets/learn/Group_13.jpg
+    - assets/learn/Group_14.jpg
+    - assets/learn/Group_15.jpg
+    - assets/learn/Group_17.jpg
+    - assets/learn/Group_18.jpg
+    - assets/learn/Group_19.jpg
+    - assets/learn/Group_20.jpg
+    - assets/learn/Group_21.jpg
+    - assets/learn/Group_22.jpg
+    - assets/learn/Group_23.jpg
+    - assets/learn/Group_24.jpg
+    - assets/learn/Group_26.jpg
+    - assets/learn/Group_27.jpg
+    - assets/learn/Group_28.jpg
+    - assets/learn/Group_29.jpg
+    - assets/learn/Group_30.jpg
